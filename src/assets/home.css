@@ -1,0 +1,57 @@
+#lista-posts {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 6em;
+
+  margin-top: 23%;
+  margin-left: -11%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #f43f5db6;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  max-width: 21.4em;
+  height: 2.7rem;
+  padding-top: 0.4em;
+
+  color: white;
+}
+
+.flex.nome {
+  cursor: pointer;
+  text-indent: 0.2rem;
+  padding-right: 0.2rem;
+  background-color: transparent !important;
+}
+
+.flex.dia {
+  padding-bottom: 0.8em;
+  width: 21.4em;
+
+  border-radius: 0px;
+
+  justify-content: flex-start;
+  text-indent: 0.2rem;
+}
+
+.flex.postagem {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  padding-bottom: 0.5em;
+
+  text-indent: 0.2rem;
+  word-wrap: break-word;
+  overflow: hidden;
+}

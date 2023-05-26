@@ -1,0 +1,67 @@
+/* % referente ao pai */
+
+.modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.473);
+  top: 0;
+  left: 0;
+
+  display: grid;
+  place-items: center;
+}
+.modal-content {
+  display: grid;
+  place-items: center;
+  
+  height: 30%;
+  width: fit-content;
+  overflow-wrap: break-word;
+
+  background: linear-gradient(#fff, #fff) padding-box,
+              linear-gradient(157deg, #b358b3, #3700ff) border-box;
+  border: 5px solid transparent;
+  border-radius: 0.5rem;
+}
+
+.modal-content h3 {
+  line-height: 3em;
+}
+.modal-content p {
+  padding-bottom: 2em;
+}
+
+strong {
+color: rgb(214, 79, 55);
+}
+.modal-actions button {
+  margin: 0 4rem;
+}
+
+.bg-sucess {
+  background-color: rgb(40, 109, 40);
+  padding: 1em;
+
+  border: 2px solid rgb(7, 126, 13);
+  border-style: double;
+}
+
+.bg-sucess:hover {
+  background-color: rgb(88, 177, 88);
+  font-weight: bold;
+}
+
+.bg-error {
+  background-color: rgb(139, 8, 8);
+  padding: 1em;
+
+  border: 2px solid rgb(192, 9, 9);
+  border-style: double;
+}
+
+.bg-error:hover {
+  background-color: rgb(209, 35, 35);
+  font-weight: bold;
+}

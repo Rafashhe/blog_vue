@@ -1,0 +1,57 @@
+@import './base.css';
+@import './form.css';
+@import './home.css';
+@import './modal.css';
+@import './post-detail.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+span {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding-right: 0.2rem;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: inherit;
+  }
+
+  @font-face {
+    font-family: "RocherColor";
+    src: url(../assets/fonts/invertRocherColorGX-8913274d.ttf);
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  } */
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
