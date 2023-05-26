@@ -17,6 +17,7 @@ span {
   color: white;
   cursor: pointer;
   padding-right: 0.2rem;
+  
 }
 
 a:any-link {
@@ -26,7 +27,7 @@ a:any-link {
 
   @font-face {
     font-family: "RocherColor";
-    src: url(../assets/fonts/invertRocherColorGX-8913274d.ttf);
+    src: url(../assets/fonts/clarasRocherColorGX-3cc4188a.ttf);
   }
 
   button {

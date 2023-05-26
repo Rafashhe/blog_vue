@@ -1,12 +1,11 @@
 #lista-posts {
   position: relative;
-  display: flex;
-  justify-items: center;
-  align-items: center;
   gap: 6em;
+  margin-top: 32%;
 
-  margin-top: 23%;
-  margin-left: -11%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
 }
 
 .flex {
@@ -27,8 +26,13 @@
 
 .flex.nome {
   cursor: pointer;
+  text-decoration: underline;
   text-indent: 0.2rem;
   padding-right: 0.2rem;
+
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  overflow: hidden;
   background-color: transparent !important;
 }
 
@@ -50,6 +54,7 @@
   border-bottom-right-radius: 10px;
 
   padding-bottom: 0.5em;
+  padding-left: 4px;
 
   text-indent: 0.2rem;
   word-wrap: break-word;
